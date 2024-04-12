@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+</head>
+<body>
+<style>
+    body {
+        background-image: url("{% static 'fon_main.jpg' %}");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 95vh;
+        vertical-align: center;
+    }
+
+    #tex {
+        color: white;
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #div1 {
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+</style>
+
+<form action="" method="post">
+    <a href="http://localhost:8000/" id="tex">РЕГИСТРАЦИЯ</a>
+    <div id="div1">
+    <text style="margin-bottom: 20px">ИЛИ</text>
+    <input name="login" type="text" placeholder="Введите логин" style="margin-bottom: 20px">
+    <input name="password" type="password" placeholder="Введите пароль" style="margin-bottom: 20px">
+        <button>ВОЙТИ</button>
+        
+        {{ msg2 }}
+    </div>
+
+</form>
+</body>
+<script>
+
+</script>
+</html>

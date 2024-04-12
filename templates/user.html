@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Пользователь</title>
+</head>
+<body>
+<style>
+    body {
+        background-image: url("{% static 'fon_main.jpg' %}");
+        display: flex;
+        
+    }
+
+    #tex {
+        color: white;
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        margin-bottom: 15px;
+
+    }
+
+    #div1 {
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    #div2 {
+        display: flex;
+        position: absolute;
+        margin-left: 85%;
+        margin-top: 5%;
+        flex-direction: column;
+
+
+    }
+
+
+</style>
+
+<form action="" method="post">
+    <div id="div2">
+        <a href="http://localhost:8000/mercury" id="tex">К планетам</a><br>
+        <button>ВЫЙТИ</button>
+        <h1>{{ us }}</h1>
+    </div>
+        
+    <div id="div1">
+        
+        
+        
+    </div>
+
+</form>
+</body>
+<script>
+
+</script>
+</html>

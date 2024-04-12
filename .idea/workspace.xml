@@ -4,31 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95ab70c-4975-44e8-b506-33912f8e6c3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dj_Project_X.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj_Project_X/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj_Project_X/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj_Project_X/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj_Project_X/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dj_Project_X/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="f95ab70c-4975-44e8-b506-33912f8e6c3c" name="Changes" comment="phase 1">
+      <change afterPath="$PROJECT_DIR$/app/static/MArs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/Merc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/Venus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/eath.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fi_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/fon_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/merkuriy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/eath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mercury.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/venus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_Project_X/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_Project_X/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj_Project_X/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj_Project_X/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ed54b64a-ce0d-44b1-b654-1ffc77a25235" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2eabk7soZDvs8jbbZT9EPLRX63S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,11 +59,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.dj_Project_X.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Python/PycharmProjects/dj_Project_X/app/static",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +78,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\PycharmProjects\dj_Project_X\app\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\PycharmProjects\dj_Project_X\app\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dj_Project_X" type="Python.DjangoServer" factoryName="Django server">
       <module name="dj_Project_X" />
@@ -59,6 +94,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="dj_Project_X.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -92,8 +128,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712145775643</updated>
-      <workItem from="1712145793754" duration="2180000" />
+      <workItem from="1712145793754" duration="2695000" />
+      <workItem from="1712158406181" duration="11000" />
+      <workItem from="1712592546733" duration="1384000" />
+      <workItem from="1712842922559" duration="36668000" />
     </task>
+    <task id="LOCAL-00001" summary="phase 1">
+      <option name="closed" value="true" />
+      <created>1712148147341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712148147341</updated>
+    </task>
+    <task id="LOCAL-00002" summary="phase 1">
+      <option name="closed" value="true" />
+      <created>1712148191964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712148191964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="phase 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase 1" />
   </component>
 </project>

@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+</head>
+<body>
+<style>
+    body {
+        background-image: url("{% static 'fon_main.jpg' %}");
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 95vh;
+        vertical-align: center;
+    }
+
+    #tex {
+        color: white;
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #div1 {
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+</style>
+
+<form action="" method="post">
+    <a href="http://localhost:8000/sign" id="tex">ВОЙТИ</a>
+    <div id="div1">
+        <text style="margin-bottom: 20px">ИЛИ</text>
+        <input type="email" placeholder="Введите почту" style="margin-bottom: 20px">
+        <input name='login' type="text" placeholder="Введите логин" style="margin-bottom: 20px">
+        <input name="password" type="password" placeholder="Введите пароль" style="margin-bottom: 20px">
+        <input type="password" placeholder="Подтвердите пароль" style="margin-bottom: 20px">
+        <button>РЕГИСТРАЦИЯ</button>
+        <h2>{{ msg }}</h2>
+    </div>
+
+</form>
+</body>
+<script>
+    let ele = document.getElementsByTagName('input')
+    form.onsubmit = (a) => {
+        if (ele[2].value !== ele[3].value) {
+            a.preventDefault()
+            alert('Пароли не совпадают')
+        }
+    }
+    form.onsubmit = (a) => {
+        if (ele[0].value.replaceAll(' ', '') === '' || ele[1].value.replaceAll(' ', '') === '' || ele[3].value.replaceAll(' ', '') === '') {
+            a.preventDefault()
+            alert('поле не может быть пустым')
+        }
+    }
+    window.onload = () =>{
+        alert('сайт хранит куки')
+    }
+</script>
+</html>
