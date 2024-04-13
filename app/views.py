@@ -29,7 +29,7 @@ def sign(request):
                 return html
             return render(request, 'sign.html', {'msg2': 'Неверный логин или пароль'})
         return render(request, 'sign.html')
-    return render(request, 'sign.html')
+    
 
 def mercury(request):
     return render(request, 'mercury.html')
