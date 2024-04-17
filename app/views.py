@@ -6,6 +6,10 @@ from app.models import users
 @csrf_exempt
 def index(request):
     if request.method == "POST":
+        login = request.POST['login']
+        for i in users.objects.all():
+            if i.login == login:
+                return render(request, 'index.html', {'msgL': 'логин уже существует'})
         user = users()
         user.login = request.POST['login']
         user.password = request.POST['password']
@@ -16,7 +20,7 @@ def index(request):
 @csrf_exempt
 def sign(request):
     try:
-        if request.COOKIES['isAuth'] == 'true':
+        if len(request.COOKIES['isAuth']) > 1:
             return redirect('/user')
     except:
         if request.method == 'POST':
@@ -25,11 +29,11 @@ def sign(request):
             for i in users.objects.all():
                 if i.login == login and i.password == password:
                     html = redirect('/user')
-                    html.set_cookie('isAuth', 'true')
-                return html
+                    html.set_cookie('isAuth', i.login)
+                    return html
             return render(request, 'sign.html', {'msg2': 'Неверный логин или пароль'})
         return render(request, 'sign.html')
-    
+
 
 def mercury(request):
     return render(request, 'mercury.html')
@@ -50,7 +54,8 @@ def user(request):
         html.delete_cookie('isAuth')
         return html
     try:
-        if request.COOKIES['isAuth'] == 'true':
-            return render(request, 'user.html')
+        if not request.COOKIES['isAuth'] is None:
+
+           return render(request, 'user.html', {'log' : request.COOKIES['isAuth']})
     except:
-        return redirect(request, 'sign.html')
+        return render(request, 'sign.html')

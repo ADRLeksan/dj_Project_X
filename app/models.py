@@ -5,3 +5,5 @@ class users(models.Model):
     login = models.TextField()
     password = models.TextField()
 
+
+
