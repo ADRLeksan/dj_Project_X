@@ -36,8 +36,8 @@
 
 </style>
 
-<form action="" method="post">
-    <a href="http://localhost:8000/sign" id="tex">ВОЙТИ</a>
+<form action="" method="post" id="form">
+    <a href="sign" id="tex">ВОЙТИ</a>
     <div id="div1">
         <text style="margin-bottom: 20px">ИЛИ</text>
         <input type="email" placeholder="Введите почту" style="margin-bottom: 20px">
@@ -58,8 +58,6 @@
             a.preventDefault()
             alert('Пароли не совпадают')
         }
-    }
-    form.onsubmit = (a) => {
         if (ele[0].value.replaceAll(' ', '') === '' || ele[1].value.replaceAll(' ', '') === '' || ele[3].value.replaceAll(' ', '') === '') {
             a.preventDefault()
             alert('поле не может быть пустым')

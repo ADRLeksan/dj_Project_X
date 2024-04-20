@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95ab70c-4975-44e8-b506-33912f8e6c3c" name="Changes" comment="phase 1">
+    <list default="true" id="f95ab70c-4975-44e8-b506-33912f8e6c3c" name="Changes" comment="phase 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/eath.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/eath.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mars.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mercury.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mercury.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="ed54b64a-ce0d-44b1-b654-1ffc77a25235" />
@@ -119,7 +123,8 @@
       <workItem from="1712592546733" duration="1384000" />
       <workItem from="1712842922559" duration="36668000" />
       <workItem from="1712999241942" duration="3378000" />
-      <workItem from="1713378033655" duration="7204000" />
+      <workItem from="1713378033655" duration="7408000" />
+      <workItem from="1713621359047" duration="3982000" />
     </task>
     <task id="LOCAL-00001" summary="phase 1">
       <option name="closed" value="true" />
@@ -137,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712148191964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="phase 3">
+      <option name="closed" value="true" />
+      <created>1713392581977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713392581977</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="phase 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="phase 1" />
+    <MESSAGE value="phase 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase 3" />
   </component>
 </project>
